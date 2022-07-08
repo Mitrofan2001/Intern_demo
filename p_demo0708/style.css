@@ -1,0 +1,466 @@
+* {
+    font-family: "微軟正黑體";
+}
+
+body {
+    max-width: 1400px;
+    height: 2060px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: auto;
+    box-shadow: 0px 2px 5px #00000029;
+    border-top: 6px solid #0188D1;
+}
+
+header{
+
+}
+
+#header_content{
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav{
+    height: auto;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+nav ul li a {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+    font: normal normal normal 18px/24px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+#li_border{
+    border-right: 2.25px solid #9B9B9B;
+}
+
+#side1 {
+    position: fixed;
+    z-index: 99;
+    top: 379px;
+    right: 19px;
+    width: 74px;
+    height: 74px;
+    /* UI Properties */
+    background: transparent url('img/play.png') 0% 0% no-repeat padding-box;
+    border-radius: 200px;
+    opacity: 1;
+    box-shadow: 0px 10px 10px #00000029;
+}
+
+#side2 {
+    position: fixed;
+    z-index: 99;
+    top: 462px;
+    right: 19px;
+    width: 74px;
+    height: 74px;
+    /* UI Properties */
+    background: transparent url('img/apple.png') 0% 0% no-repeat padding-box;
+    border-radius: 200px;
+    opacity: 1;
+    box-shadow: 0px 10px 10px #00000029;
+}
+
+#side3 {
+    position: fixed;
+    z-index: 99;
+    top: 550px;
+    right: 19px;
+    width: 75px;
+    height: 75px;
+    /* UI Properties */
+    background: transparent url('img/top.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#side3-1 {
+    position: fixed;
+    z-index: 99;
+    top: 585px;
+    right: 43px;
+    text-align: left;
+    font: normal normal normal 14px/32px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+}
+
+/**************************/
+article{
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+
+    box-shadow: inset 0px 20px 10px -15px #00000029;
+    background: transparent url('img/title_pic.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#KV {
+    width: 1040px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#title {
+    width: 345px;
+    height: 91px;
+
+
+    text-align: left;
+    font: normal normal bold 69px/91px Segoe UI;
+    letter-spacing: 0px;
+    color: #0089D1;
+    opacity: 1;
+    text-shadow: #9B9B9B 0px 0px 2px;
+}
+
+#subtitle {
+    width: 600px;
+    height: 60px;
+
+
+    text-align: left;
+    font: normal normal bold 45px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+#download {
+    display: flex;
+    margin-top: 40px;
+}
+
+#googleplay_btn {
+    margin: 0 20px 0 0;
+    width: 208px;
+    height: 69px;
+    background: transparent url('img/playstore.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #D3D3D3;
+    border-radius: 200px;
+    opacity: 1;
+    box-shadow: 0px 10px 10px #00000029;
+}
+
+#applestore_btn {
+    width: 207px;
+    height: 69px;
+
+    background: transparent url('img/appstore.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #D3D3D3;
+    border-radius: 200px;
+    opacity: 1;
+    box-shadow: 0px 10px 10px #00000029;
+}
+/***********************************************/
+#Btn {
+    margin: -50px 0 0 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub_btn {
+    margin-left: 40px;
+    width: 350px;
+    height: 100px;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #D1EEFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000038;
+    border-radius: 50px;
+    opacity: 1;
+    display: flex;
+}
+
+#btn_content{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 260px;
+}
+
+.btn_title {
+    width: 140px;
+    height: auto;
+    font: normal normal normal 24px/28px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+    margin: 7px 0;
+}
+
+.btn_bio {
+    width: 75px;
+    height: auto;
+
+    text-align: left;
+    font: normal normal normal 24px/28px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.btn_icon {
+    width: 51px;
+    height: 54px;
+    padding: 13px 45px;
+    margin: 10px 0px;
+    opacity: 1;
+    color: #58A4EF;
+    border-right: 6px dotted #666666;
+}
+
+#activity {
+    width: 100%;
+    height: auto;
+}
+
+#grayline {
+    margin: auto;
+    height: 20px;
+    left: 48%;
+    width: 50px;
+    /* UI Properties */
+    border-bottom: 1px solid #B8B8B8;
+    opacity: 1;
+}
+
+#activity_title {
+    margin: auto;
+    margin-top: 10px;
+    top: 5px;
+    width: 120px;
+    height: 40px;
+    /* UI Properties */
+    font: normal normal bold 30px/40px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+#activity_subtitle {
+    margin: 10px auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 24px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 18px/24px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.activity_text {
+    margin: 20px auto;
+    width: 1110px;
+    height: 250px;
+    /* UI Properties */
+    background: #ECF8FF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+}
+
+#text1_content{
+    width: 574px;
+    height: 250px;
+    border-top: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#text1_img {
+    width: 536px;
+    height: 250px;
+    /* UI Properties */
+    background: transparent url('img/activity1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#text2_content{
+    width: 574px;
+    height: 250px;
+    border-top: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#text2_img {
+    width: 536px;
+    height: 250px;
+    /* UI Properties */
+    background: transparent url('img/activity2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-top: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#text_title {
+    margin: 70px auto 0 auto;
+    width: auto;
+    height: auto;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 30px/40px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+#text_bio {
+    margin: 10px auto 0 auto;
+    left: 629px;
+    width: 396px;
+    height: auto;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+#text_ps {
+    margin: 5px auto 0 auto;
+    width: 396px;
+    height: auto;
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #58A4EF;
+}
+
+#notice{
+    width: 100%;
+    height: auto;
+    
+}
+
+#notice_site_1{
+    width: 180px;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#notice_site_2{
+    width: 180px;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+}
+
+#notice_title {
+    width: auto;
+    height: auto;
+    font: normal normal bold 30px/40px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+#arrow {
+    margin-left: 10px;
+}
+
+
+#n {
+    margin: 10px auto;
+    width: 1090px;
+    height: 49px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/24px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+/***********************************/
+footer {
+    /*site */
+    position: absolute;
+    top: 1924px;
+    width: 100%;
+    max-width: 1400px;
+    height: 136px;
+    /* UI Properties */
+    background: #7C7C7C 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+
+#nav_f{
+    width: 860px;
+    height: auto;
+    display: flex;
+    margin: 10px auto 5px;
+}
+
+#nav_f ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#nav_f ul li a {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    font: normal normal normal 18px/24px Microsoft JhengHei;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+#li_border{
+    border-right: 2.25px solid #9B9B9B;
+}
+
+
+
+#about {
+    margin: auto;
+    width: 436px;
+    height: 41px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 14px/22px Microsoft JhengHei;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
